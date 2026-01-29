@@ -20,19 +20,14 @@ This project demonstrates a real-world AWS deployment following best practices f
 
 ---
 
-## 📌 Architecture Diagram
-
-*(Add your Draw.io diagram image here, example:)*
-
-
----
 
 ## Project Structure
+---
 
-├── architecture/
-│ ├── diagram.png
-│ └── vpc-design.drawio
-├── screenshots/
+AWS-VPC-MULTI-TIER/
+├──  architecture diagram/
+│   └── architecture-diagram.png
+├── projext screenshots/
 │ ├── vpc.png
 │ ├── subnets.png
 │ ├── route-tables.png
@@ -41,8 +36,8 @@ This project demonstrates a real-world AWS deployment following best practices f
 │ ├── target-group.png
 │ ├── autoscaling-group.png
 │ ├── launch-template.png
-│ └── ec2-private.png
 └── README.md
+
 
 
 ---
@@ -94,15 +89,6 @@ This project demonstrates a real-world AWS deployment following best practices f
 - Security Group: EC2-SG
 - User Data Script (Docker or ECR pull)
 
-```bash
-#!/bin/bash
-sudo yum update -y
-sudo yum install docker -y
-sudo service docker start
-docker run -p 80:80 your-docker-image
-
-
-
 ### 7️⃣ Auto Scaling Group
 
 Minimum instances: 2
@@ -115,7 +101,7 @@ Attached to private subnets and ALB Target Group
 
 Scaling based on CPU utilization
 
-8️⃣ Application Load Balancer
+### 8️⃣ Application Load Balancer
 
 Scheme: Internet-facing
 
@@ -128,7 +114,7 @@ Target Group: Private EC2s
 Health checks configured 
 
 
-🎯 Key Features
+### 🎯 Key Features
 
 Multi-AZ deployment for high availability
 
