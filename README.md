@@ -8,7 +8,7 @@ A production-ready, highly available AWS architecture deployed using **VPC**, **
 
 This project demonstrates a real-world AWS deployment following best practices for cloud architecture:
 
-- **Custom VPC** with private and public subnets
+- **Custom VPC**(my-ms-vpc) with private and public subnets
 - **2 Availability Zones** for high availability
 - **Public Subnets** hosting ALB and NAT Gateway
 - **Private Subnets** hosting EC2 Auto Scaling Group
