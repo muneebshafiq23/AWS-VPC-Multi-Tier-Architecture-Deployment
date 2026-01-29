@@ -21,25 +21,6 @@ This project demonstrates a real-world AWS deployment following best practices f
 ---
 
 
-## Project Structure
----
-
-AWS-VPC-MULTI-TIER/
-├──  architecture diagram/
-│   └── architecture-diagram.png
-├── projext screenshots/
-│ ├── vpc.png
-│ ├── subnets.png
-│ ├── route-tables.png
-│ ├── nat-gateway.png
-│ ├── load-balancer.png
-│ ├── target-group.png
-│ ├── autoscaling-group.png
-│ ├── launch-template.png
-└── README.md
-
-
-
 ---
 
 ## Components Used
