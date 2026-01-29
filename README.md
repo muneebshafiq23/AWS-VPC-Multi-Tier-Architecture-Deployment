@@ -4,7 +4,7 @@ A production-ready, highly available AWS architecture deployed using **VPC**, **
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project demonstrates a real-world AWS deployment following best practices for cloud architecture:
 
@@ -95,7 +95,7 @@ Target Group: Private EC2s
 Health checks configured 
 
 
-### 🎯 Key Features
+### Key Features
 
 Multi-AZ deployment for high availability
 
